@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD gunicorn wsgi:app --bind 0.0.0.0:9000 --workers 3
+CMD gunicorn wsgi:app --bind 0.0.0.0:9000
