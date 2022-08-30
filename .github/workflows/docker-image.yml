@@ -38,5 +38,6 @@ jobs:
         ECR_REPOSITORY: whist
         IMAGE_TAG: whist
       run: |
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker build -t whist .
+        docker tag whist:latest public.ecr.aws/m6s3r9s6/whist:latest
+        docker push public.ecr.aws/m6s3r9s6/whist:latest
