@@ -44,13 +44,13 @@
     }
   ],
   "placementConstraints": [],
-  "memory": null,
+  "memory": "1024",
   "taskRoleArn": "arn:aws:iam::930354804502:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:930354804502:task-definition/whist:2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:930354804502:task-definition/whist:4",
   "family": "whist",
   "requiresAttributes": [
     {
@@ -78,8 +78,8 @@
   ],
   "networkMode": null,
   "runtimePlatform": null,
-  "cpu": null,
-  "revision": 2,
+  "cpu": "1024",
+  "revision": 4,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
