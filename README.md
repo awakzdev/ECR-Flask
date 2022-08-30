@@ -8,4 +8,4 @@ Will run different instances of the web application and return its corresponding
 <hr>
 
 ## -  Added CI for Amazon ECR
-#### Was tasked with creating an application load balancer and run the app on an ECS Cluster.
+#### Was tasked with creating an application load balancer and running the app on an ECS Cluster.
