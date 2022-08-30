@@ -23,7 +23,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "whist",
+      "image": "930354804502.dkr.ecr.us-east-2.amazonaws.com/whist:65535228b063bb2b663bcd75ec17047bf5af508c",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,25 +50,36 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:930354804502:task-definition/whist:1",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:930354804502:task-definition/whist:2",
   "family": "whist",
   "requiresAttributes": [
     {
       "targetId": null,
       "targetType": null,
       "value": null,
+      "name": "com.amazonaws.ecs.capability.ecr-auth"
+    },
+    {
+      "targetId": null,
+      "targetType": null,
+      "value": null,
       "name": "com.amazonaws.ecs.capability.task-iam-role"
+    },
+    {
+      "targetId": null,
+      "targetType": null,
+      "value": null,
+      "name": "ecs.capability.execution-role-ecr-pull"
     }
   ],
   "pidMode": null,
   "requiresCompatibilities": [
-    "EC2",
-    "FARGATE"
+    "EC2"
   ],
-  "networkMode": awsvpc,
+  "networkMode": null,
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
