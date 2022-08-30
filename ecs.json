@@ -65,7 +65,7 @@
     "EC2",
     "FARGATE"
   ],
-  "networkMode": null,
+  "networkMode": awsvpc,
   "runtimePlatform": null,
   "cpu": null,
   "revision": 1,
