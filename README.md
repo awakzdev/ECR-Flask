@@ -1,6 +1,6 @@
 ## Flask running on nginx with gunicorn
 
-Will run different instances of the web application and return its corresponding IP address through a load balancer
+Will run different instances of the web application using a load balancer and return a corresponding instance IP address.
 ##### Please run using the following `docker-compose up -d --scale app=3`
 *Accessed through http://localhost*
 
