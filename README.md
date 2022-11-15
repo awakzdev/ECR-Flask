@@ -7,5 +7,5 @@ Will run different instances of the web application using a load balancer and re
 
 <hr>
 
-## -  Added CI for Amazon ECR
+### -  Added CI for Amazon ECR
 #### Was tasked with creating an application load balancer and running the app on an ECS Cluster.
