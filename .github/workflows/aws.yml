@@ -7,8 +7,8 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: whist
-  CONTAINER_NAME: whist
+  ECR_REPOSITORY: ganesha
+  CONTAINER_NAME: ganesha
 
 permissions:
   contents: read
